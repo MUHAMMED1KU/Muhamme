@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>هدية لخطيبتي</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            margin-top: 50px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        h1 {
+            color: #ff69b4;
+        }
+        .message {
+            font-size: 18px;
+            margin-top: 20px;
+            color: #ff1493;
+        }
+        .image-gallery {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .image-gallery img {
+            width: 150px;
+            height: 150px;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+        .more-link {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: #ff1493;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>دلوعتي مياس!</h1>
+        <p class="message">بحبك ميوستي</p>
+        
+        <div class="image-gallery">
+            <img src="https://via.placeholder.com/150" alt="صورة 1">
+            <img src="https://via.placeholder.com/150" alt="صورة 2">
+            <img src="https://via.placeholder.com/150" alt="صورة 3">
+        </div>
+    </div>
+    <a href="#" class="more-link">المزيد</a>
+</body>
+</html>
